@@ -4,5 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server.allowedHosts: "my-react-app-xljg.onrender.com"
+  server: {
+    allowedHosts: ["my-react-app-xljg.onrender.com"]
+  }
 })
