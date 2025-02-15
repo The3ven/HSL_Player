@@ -9,6 +9,6 @@ export default defineConfig({
    port: Number(process.env.PORT) || 5173,
    strictPort: true,
    cors: true,
-   allowed Hosts: ['my-react-app-xljg.onrender.com],
+   allowedHosts: ['my-react-app-xljg.onrender.com],
  }
 })
