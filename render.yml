@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-react-app
+    runtime: node
+    region: oregon  # Change this to your preferred region
+    plan: free  # Change if needed
+    buildCommand: |
+      bun install
+    startCommand: npm start dev
