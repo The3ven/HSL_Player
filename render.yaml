@@ -6,4 +6,4 @@ services:
     plan: free  # Change if needed
     buildCommand: |
       bun install
-    startCommand: npm start dev
+    startCommand: npm run dev
