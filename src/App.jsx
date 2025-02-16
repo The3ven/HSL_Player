@@ -8,7 +8,7 @@ import videojs from "video.js";
 
 function App() {
   const playerRef = useRef(null)
-  const videoLink = "http://localhost:8000/uploads/videos/529f0eda-1597-4e95-a5ca-46b18ab13865/index.m3u8"
+  const videoLink = "https://zf0gxnlj-8000.inc1.devtunnels.ms/uploads/videos/529f0eda-1597-4e95-a5ca-46b18ab13865/index.m3u8"
 
   const videoPlayerOptions = {
     controls: true,
